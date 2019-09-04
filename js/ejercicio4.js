@@ -4,7 +4,7 @@ var misLibros = ['Harry Potter', 'Game of Thrones', 'Sherlock', 'Dracula'];
 
 console.log('No recuerdo en que posicion de mi biblioteca deje el libro de Sherlock. ' + misLibros);
 
-var posicion = 2;
+var posicion = misLibros.indexOf("Sherlock");
 
 console.log('Estaba en la posicion: ' + posicion);
 
